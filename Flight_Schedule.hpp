@@ -33,7 +33,7 @@ public:
 	// However right now only one filter can be applied, so it only allows filtering by a manufacturer or set of manufacturers.
 	// The filters cannot be combined as of yet, but I will add that functionality soon
 	// All you have to do is call schedule->filterByWhatever(...) and pass in the string or array of strings to filter by (or azimuth and elevation)
-	// Then the returned Filtered_Flights Object can be used to actually assign Flights to Cells
+	// Then the returned Filtered_Flights Object can be used to actually assign Flights to Cells fdasfda
 	Filtered_Flights filterByManufacturer(string man);
 	Filtered_Flights filterByManufacturer(string man[], int numMans);
 	Filtered_Flights filterByOperator(string op);
